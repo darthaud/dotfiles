@@ -113,7 +113,6 @@ prompt_git() {
     fi
 
     setopt promptsubst
-    autoload -Uz vcs_info
 
     zstyle ':vcs_info:*' enable git
     zstyle ':vcs_info:*' get-revision true

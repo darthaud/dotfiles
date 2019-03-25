@@ -17,6 +17,7 @@ autoload -Uz bracketed-paste-magic
 autoload -Uz bracketed-paste-url-magic
 autoload -Uz url-quote-magic
 autoload -Uz select-word-style
+autoload -Uz vcs_info
 zle -N bracketed-paste bracketed-paste-magic
 zle -N bracketed-paste bracketed-paste-url-magic
 zle -N self-insert url-quote-magic
